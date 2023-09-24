@@ -19,7 +19,7 @@ st.write("""
     <h1 style='color:#000000;'>Industrial Copper Modeling Application</h1>
 </div>
 """, unsafe_allow_html=True)
-
+# BACKGROUND IMAGE
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image_file:
         encoded_string = base64.b64encode(image_file.read())
